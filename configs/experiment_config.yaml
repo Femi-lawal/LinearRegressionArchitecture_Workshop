@@ -1,0 +1,18 @@
+db:
+  host: "ep-twilight-poetry-ad4klocb-pooler.c-2.us-east-1.aws.neon.tech"
+  database: "neondb"
+  user: "neondb_owner"
+  password: "npg_w8YtZHyuePS7"
+  port: 5432
+  sslmode: "require"
+
+training:
+  table: "pm_dashboard"
+  limit: 20000
+
+testing:
+  synthetic_rows: 1200
+  stream_steps: 800
+  dt_seconds: 1.0
+
+outdir: "experiments"
